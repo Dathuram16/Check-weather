@@ -1,0 +1,46 @@
+        #container{
+            margin-top: 50px;
+            display: flex;
+            padding: 50px;
+        }
+        #leftcontainer{
+            width: 50%;
+        }
+        #search{
+            text-align: center;
+        }
+        #search>button{
+            font-size: larger;
+            font-weight: bold;
+            background-color: teal;
+        }
+        #search>input{
+            height: 50px;
+            width: 20%;
+            font-size: 24px;
+        }
+        .tempclass{
+            border: 1px solid black;
+            width: 50%;
+            background-color: whitesmoke;
+            color: darkgoldenrod;
+        }
+        .sun{
+            display: flex;
+            width: 50%;
+        }
+        .sun>div:first-child{
+            border: 1px solid orange;
+            margin-right: 10px;
+        }
+        .sun>div:last-child{
+            border: 1px solid black;
+        }
+       #forecast{
+           display: grid;
+           grid-template-columns: repeat(8,1fr);
+           
+       }
+       /* #forecast>div{
+
+       } */
